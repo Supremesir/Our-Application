@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Test">
+
+    //这一页是测试页面，放一个图片，然后写一句提示性的话语，然后再放一个下一步的按钮
     <ImageView
         android:id="@+id/test_image"
         android:layout_width="match_parent"
