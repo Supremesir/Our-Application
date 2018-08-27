@@ -24,7 +24,7 @@
         </activity>
         <activity android:name=".Test" />
         <activity android:name=".History" />
-        <activity android:name=".Tip"></activity>
+        <activity android:name=".ShowImage"></activity>
     </application>
 
 </manifest>

@@ -1,13 +1,15 @@
 package bjfu.bit;
-//每次进行测试前对软件操作的提示
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Tip extends AppCompatActivity {
+public class ShowImage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tip);
+        setContentView(R.layout.activity_show_image);
+
+
     }
 }

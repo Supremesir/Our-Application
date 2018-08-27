@@ -6,23 +6,25 @@
 
 
     <Button
-        android:id="@+id/begin"
+        android:id="@+id/main_button_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Begin Test"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:drawableLeft="@drawable/abc_btn_radio_to_on_mtrl_000"
+        android:padding="75dip"
         />
 
     <Button
-        android:id="@+id/history"
+        android:id="@+id/main_button_history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="View History"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:drawableLeft="@drawable/abc_btn_radio_to_on_mtrl_015"
+        android:padding="75dip"
         />
 
 </LinearLayout>
