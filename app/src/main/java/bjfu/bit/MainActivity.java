@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button begin = (Button) findViewById(R.id.begin);
+
+        Button begin = (Button) findViewById(R.id.main_button_test);
         begin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -21,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button history = (Button) findViewById(R.id.history);
+
+        Button history = (Button) findViewById(R.id.main_button_history);
         history.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

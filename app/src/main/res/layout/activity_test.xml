@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Test">
+    android:layout_height="match_parent">
 
-    //这一页是测试页面，放一个图片，然后写一句提示性的话语，然后再放一个下一步的按钮
+
     <ImageView
         android:id="@+id/test_image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="fill_horizontal"/>
+
     <TextView
-        android:id="@+id/e-tip"
-        android:layout_width="match_parent"
+        android:id="@+id/test_text"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="提示性的话语"
-        android:textAllCaps="false"/>
-    <Button
-        android:id="@+id/next"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Next"
-        android:textAllCaps="false"/>
-</android.support.constraint.ConstraintLayout>
+        android:text="description give user guidance"/>
+
+
+</LinearLayout>
