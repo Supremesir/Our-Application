@@ -1,10 +1,14 @@
 package bjfu.bit.db;
+
 //存储历史记录的数据库
-public class data {
+public class Data {
+    private int id;
     private int year;
     private int month;
     private int day;
     private double vision;
+
+    public int getId(){return id;}
 
     public double getVision() {
         return vision;
@@ -21,6 +25,8 @@ public class data {
     public int getYear() {
         return year;
     }
+
+    public void setId(int id) {this.id = id ;}
 
     public void setDay(int day) {
         this.day = day;
