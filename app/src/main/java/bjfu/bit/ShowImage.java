@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ShowImage extends AppCompatActivity {
 
@@ -17,7 +18,7 @@ public class ShowImage extends AppCompatActivity {
         picture1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ShowImage.this,ShowImage.class);
+                Intent intent = new Intent(ShowImage.this,Test.class);
                 startActivity(intent);
             }
         });
@@ -25,7 +26,7 @@ public class ShowImage extends AppCompatActivity {
         picture2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ShowImage.this,ShowImage.class);
+                Intent intent = new Intent(ShowImage.this,Test.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +34,7 @@ public class ShowImage extends AppCompatActivity {
         picture3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ShowImage.this,ShowImage.class);
+                Intent intent = new Intent(ShowImage.this,Test.class);
                 startActivity(intent);
             }
         });
@@ -41,7 +42,7 @@ public class ShowImage extends AppCompatActivity {
         picture4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ShowImage.this,ShowImage.class);
+                Intent intent = new Intent(ShowImage.this,Test.class);
                 startActivity(intent);
             }
         });
