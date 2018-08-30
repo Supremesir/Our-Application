@@ -48,17 +48,4 @@ public class SQLiteOpen extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean insertData(String vision, String year, String month, String day) {
-        SQLiteDatabase db = this.getReadableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(INFO_COL_VISION, vision);
-        contentValues.put(INFO_COL_YEAR, year);
-        contentValues.put(INFO_COL_MONTH, month);
-        contentValues.put(INFO_COL_DAY, day);
-        long result = db.insert(TABLE_NAME, null, contentValues);
-        if (result == -1)
-            return false;
-        else
-            return true;
-    }
 }
