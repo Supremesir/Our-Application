@@ -12,12 +12,16 @@ import com.qmuiteam.qmui.widget.dialog.QMUIDialogAction;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button begin;
+    Button history;
+    Button tip;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button begin = (Button) findViewById(R.id.main_button_test);
+        begin = (Button) findViewById(R.id.main_button_test);
         begin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button history = (Button) findViewById(R.id.main_button_history);
+        history = (Button) findViewById(R.id.main_button_history);
         history.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button tip = (Button) findViewById(R.id.main_tip);
+        tip = (Button) findViewById(R.id.main_tip);
         tip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

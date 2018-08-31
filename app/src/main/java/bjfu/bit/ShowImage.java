@@ -9,6 +9,12 @@ import android.widget.TextView;
 
 public class ShowImage extends AppCompatActivity {
 
+    ImageView picure1;
+    ImageView picure2;
+    ImageView picure3;
+    ImageView picure4;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
