@@ -9,10 +9,6 @@ import android.widget.TextView;
 
 public class ShowImage extends AppCompatActivity {
 
-    ImageView picure1;
-    ImageView picure2;
-    ImageView picure3;
-    ImageView picure4;
 
 
     @Override
@@ -24,6 +20,7 @@ public class ShowImage extends AppCompatActivity {
         picture1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                
                 Intent intent = new Intent(ShowImage.this,Test.class);
                 startActivity(intent);
             }
