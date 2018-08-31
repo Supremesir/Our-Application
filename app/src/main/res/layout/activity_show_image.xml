@@ -10,28 +10,28 @@
         android:id="@+id/show_image1"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
-        android:scaleType="center"
+        android:scaleType="fitEnd"
         android:src="@mipmap/ic_launcher" />
 
     <ImageView
         android:id="@+id/show_image2"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
-        android:scaleType="center"
+        android:scaleType="fitEnd"
         android:src="@mipmap/ic_launcher" />
 
     <ImageView
         android:id="@+id/show_image3"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
-        android:scaleType="center"
+        android:scaleType="fitStart"
         android:src="@mipmap/ic_launcher" />
 
     <ImageView
         android:id="@+id/show_image4"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
-        android:scaleType="center"
+        android:scaleType="fitStart"
         android:src="@mipmap/ic_launcher" />
 
 

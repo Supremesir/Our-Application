@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Eye Test</string>
+    <string name="title_activity_tip2">Tip2</string>
 </resources>

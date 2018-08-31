@@ -7,17 +7,19 @@
 
     <ImageView
         android:id="@+id/test_image"
-        android:layout_width="300dip"
+        android:layout_width="match_parent"
         android:layout_height="300dip"
-        android:scaleType="fitXY"
-        android:src="@mipmap/ic_launcher"
-        android:layout_gravity="fill_horizontal"/>
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/test_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="description give user guidance"/>
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="description give user guidance"
+        android:textAlignment="center"
+        android:textSize="25dp" />
 
 
 </LinearLayout>
