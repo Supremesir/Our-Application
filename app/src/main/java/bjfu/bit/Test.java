@@ -4,8 +4,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.qmuiteam.qmui.alpha.QMUIAlphaLinearLayout;
+import com.qmuiteam.qmui.widget.QMUICollapsingTopBarLayout;
 
 import java.util.Random;
 
@@ -30,7 +34,7 @@ public class Test extends AppCompatActivity {
 
         int tempBorder = random.nextInt(500);
 
-        picture.setLayoutParams ( new LinearLayout.LayoutParams (tempBorder , tempBorder ) );
+        picture.setLayoutParams ( new QMUIAlphaLinearLayout.LayoutParams (tempBorder , tempBorder ) );
 
 
         picture.setOnClickListener(new View.OnClickListener() {
