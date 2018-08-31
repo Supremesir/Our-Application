@@ -8,16 +8,16 @@
     <ImageView
         android:id="@+id/test_image"
         android:layout_width="match_parent"
-        android:layout_height="300dip"
+        android:layout_height="350dp"
         android:layout_gravity="fill_horizontal"
         android:scaleType="fitCenter"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/image3" />
 
     <TextView
         android:id="@+id/test_text"
         android:layout_width="match_parent"
         android:layout_height="54dp"
-        android:text="description give user guidance"
+        android:text="好好观察别走神！"
         android:textAlignment="center"
         android:textSize="25dp" />
 
